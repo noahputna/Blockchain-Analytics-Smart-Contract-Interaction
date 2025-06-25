@@ -18,3 +18,11 @@ This is due to:
 To provide a complete, working version, a seperate simulation (`BMM Blockchain Simulation.py`) has been created with mock blockchain data. This is to reproduce and illustrate key analytics and plots.
 
 ---
+
+## Features
+
+### Smart Contracts
+- `BMMCoin.sol`: ERC-20 token contract (OpenZeppelin standard).
+- `BMMMarket.sol`: Contract for purchasing products A, B, C with BMMCoin.
+
+### Python + Blockchain Interaction
