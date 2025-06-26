@@ -39,7 +39,7 @@ To provide a complete, working version, a seperate simulation (`BMM Blockchain S
 
 ---
 
-## Repoository Structure
+## Repository Structure
 
 ```plaintext
 ├── contracts/
@@ -51,6 +51,30 @@ To provide a complete, working version, a seperate simulation (`BMM Blockchain S
 │
 ├── scripts/
 │   ├── Blockchain Analytics & Smart Contract Interaction (FNCE30012).py       # Python version of original notebook
-│   └── BBMM Blockchain Simulation.py                                          # Python version of simulation notebook
+│   └── BMM Blockchain Simulation.py                                          # Python version of simulation notebook
 │
 └── README.md                                                                  # Project overview and documentation
+```
+
+---
+
+## Usage
+
+### Install Requirements
+
+``` bash
+pip install web3 matplotlib seaborn numpy
+```
+
+### Run the Simulation File
+
+```bash
+python scripts/BMM Blockchain Simulation.py
+```
+
+---
+
+## Disclaimer
+
+This repository was originally buillt as an academic project. The smart contracts were not deployed on a public blockchain, and no sensitive keys are included.
+Some elements in `Blockchain Analytics & Smart Contract Interaction (FNCE30012).py` are **not runnable**.
