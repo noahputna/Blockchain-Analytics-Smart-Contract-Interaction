@@ -26,3 +26,31 @@ To provide a complete, working version, a seperate simulation (`BMM Blockchain S
 - `BMMMarket.sol`: Contract for purchasing products A, B, C with BMMCoin.
 
 ### Python + Blockchain Interaction
+- Web3-based smart cntract execution (approve, request, buy).
+- Nonce and gas fee management.
+- Manual decoding of transaction inputs.
+
+### Analytics & Simulation
+- Track and plot:
+  - Product fee changes over time.
+  - Number of units purchased.
+  - Total BMMCoin spent (per block and per product).
+- Caclulate implied exchange rate (BMM to AUD).
+
+---
+
+## Repoository Structure
+
+```plaintext
+├── contracts/
+│   ├── BMMCoin.sol                                                            # ERC-20 token contract
+│   └── BMMMarket.sol                                                          # Marketplace smart contract
+│
+├── data/
+│   └── mock_block_data.json                                                   # Simulated block data for analysis
+│
+├── scripts/
+│   ├── Blockchain Analytics & Smart Contract Interaction (FNCE30012).py       # Python version of original notebook
+│   └── BBMM Blockchain Simulation.py                                          # Python version of simulation notebook
+│
+└── README.md                                                                  # Project overview and documentation
